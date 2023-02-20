@@ -1,0 +1,19 @@
+::selection {
+  background: mediumvioletred;
+  color: powderblue;
+}
+
+:root {
+  color: #220;
+  background-color: plum;
+  background-image: radial-gradient(#dcdcdc, #2db, #1cd, #0bd);
+}
+
+:any-link { color: currentColor }
+:focus { outline-color: currentColor }
+
+.rain {
+  text-shadow:
+    0 1em 0 purple,
+    0 2em 0 purple;
+}
